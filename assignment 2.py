@@ -59,3 +59,4 @@ Program to calculate the grade....and takes five inputs of marks of each subject
 # for i in my_list:
 #     if i < 5:
 #         print(i)
+
