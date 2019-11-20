@@ -65,17 +65,17 @@ print(sum_)
 
 # question no. 5
 
-my_list = [1, 2, 3, 5, 6, 4, 2, 1]
+m_list = [1, 2, 3, 5, 6, 4, 2, 1]
 
-def func():
+
+def func(my_list):
     repeated_values = []
     length = len(my_list)
     for i in range(length):
         for j in range(i + 1, length):
             if my_list[i] == my_list[j] and my_list[i] not in repeated_values:
-                repeated_values.append(x[i])
+                repeated_values.append(my_list[i])
+    return repeated_values
 
 
-
-
-
+print(func(m_list))
