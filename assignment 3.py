@@ -65,6 +65,7 @@ print(sum_)
 
 # question no. 5
 
+"""
 m_list = [1, 2, 3, 5, 6, 4, 2, 1]
 
 
@@ -79,3 +80,20 @@ def func(my_list):
 
 
 print(func(m_list))
+"""
+
+# question no. 6
+
+key1 = input("which key you want of find: ")
+
+dic = {"name": "Aaqib", "father name": "Nazir", "age": 15}
+
+
+def check_keys(dictionary, key):
+    """ a function which find if the key is repeated or not """
+    if key in dictionary.keys():
+        print("The key {} is present".format(key))
+    else:
+        print("The key {} is not present".format(key))
+
+check_keys(dic, key1)
