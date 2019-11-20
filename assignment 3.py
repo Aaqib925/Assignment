@@ -1,6 +1,6 @@
 # question no. 1
 
-""""
+
 x = int(input("Enter first number: "))
 y = int(input("Enter second number: "))
 
@@ -30,10 +30,9 @@ while True:
     else:
         print("Please select correct choice.")
 
-"""
+
 # question no. 2
 
-"""
 my_list = [1, 2, 3, 4, 5]
 
 x = int(input("Which element you want to find in this list? "))
@@ -41,31 +40,31 @@ for i in my_list:
     if i == x:
         print("The element exist.")
 
-"""
+
 
 # question no. 3
-"""
+
 dictionary = {"name": "Aaqib", "father name": "Nazir", }
 
 dictionary["Roll_number"] = "CT-47"
 print(dictionary)
 
-"""
+
 
 # question no. 4
 
-"""
+
 sum_ = 0
 dictionary = {"a": 1, "b": 2, "c": 3}
 for i in dictionary:
     sum_ += dictionary[i]
 print(sum_)
 
-"""
+
 
 # question no. 5
 
-"""
+
 m_list = [1, 2, 3, 5, 6, 4, 2, 1]
 
 
@@ -80,7 +79,7 @@ def func(my_list):
 
 
 print(func(m_list))
-"""
+
 
 # question no. 6
 
@@ -96,4 +95,4 @@ def check_keys(dictionary, key):
     else:
         print("The key {} is not present".format(key))
 
-check_keys(dic, key1)
+check_keys(dic, key1
