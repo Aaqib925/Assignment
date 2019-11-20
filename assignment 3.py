@@ -96,3 +96,4 @@ def check_keys(dictionary, key):
         print("The key {} is not present".format(key))
 
 check_keys(dic, key1
+
