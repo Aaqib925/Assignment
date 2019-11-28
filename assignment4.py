@@ -12,3 +12,10 @@
 # print(my_dict)
 
 # question no. 2
+
+# cities = {"karachi": {"country": "Pakistan", "population": "14.91 million", "fact": "Sea harbour"},
+#           "Islamabad": {"country": "Pakistan", "population": "1.015 million", "fact": "Capital"},
+#           "lahore": {"country": "Pakistan", "population": "11.13 million ", "fact": "Lahore lahore ay"}
+#           }
+#
+# print(cities)
