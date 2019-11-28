@@ -19,3 +19,22 @@
 #           }
 #
 # print(cities)
+
+# question no. 3
+
+num_of_persons = int(input("Write how many people want tickets: "))
+
+total2 = []
+for i in range(num_of_persons):
+    total = 0
+    age = int(input("Enter the age: "))
+    if age > 3:
+        total += 0
+    if 3 <= age <= 12:
+        total += 10
+    if age > 12:
+        total += 15
+    total2.append(total)
+
+
+print("Your total cost of ticket is: ", str(sum(total2))+"$")
