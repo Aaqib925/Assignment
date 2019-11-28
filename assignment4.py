@@ -36,8 +36,8 @@ for i in range(num_of_persons):
         total += 15
     total2.append(total)
 
+print("Your total cost of ticket is: ", str(sum(total2)) + "$")
 
-print("Your total cost of ticket is: ", str(sum(total2))+"$")
 
 # question no. 4
 
