@@ -22,22 +22,22 @@
 #
 # print("The factorial of {} is:".format(number), fact(number))
 
-# Question:2
-# Write a Python function that accepts a string and calculate the number of upper
-# case letters and lower case letters.
+Question:2
+Write a Python function that accepts a string and calculate the number of upper
+case letters and lower case letters.
 
-# sent = input("Enter the String: ")
-# lower_letters = "abcdefghijklmnopqrstuvwxyz"
-# upper_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# upper_count = 0
-# lower_count = 0
-# for i in sent:
-#     if i in lower_letters:
-#         lower_count += 1
-#     elif i in upper_letters:
-#         upper_count += 1
-# print("The number of upper case letters are: ", upper_count)
-# print("The number of lower case letters are: ", lower_count)
+sent = input("Enter the String: ")
+lower_letters = "abcdefghijklmnopqrstuvwxyz"
+upper_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+upper_count = 0
+lower_count = 0
+for i in sent:
+    if i in lower_letters:
+        lower_count += 1
+    elif i in upper_letters:
+        upper_count += 1
+print("The number of upper case letters are: ", upper_count)
+print("The number of lower case letters are: ", lower_count)
 
 Question:3
 Write a Python function to print the even numbers from a given list.
