@@ -66,19 +66,19 @@
 # Write a Python function that takes a number as a parameter and check the
 # number is prime or not.
 
-# def prime(num):
-#     if num > 1:
-#         for i in range(2, num):
-#             if num % i == 0:
-#                 print("The number {} is not prime number".format(num))
-#                 print(str(i), "*", str(num // i), "=", num)
-#                 break
-#         else:
-#             print("The number {} is a prime number".format(num))
-#
-#
-# number = int(input("Enter any number: "))
-# prime(number)
+def prime(num):
+    if num > 1:
+        for i in range(2, num):
+            if num % i == 0:
+                print("The number {} is not prime number".format(num))
+                print(str(i), "*", str(num // i), "=", num)
+                break
+        else:
+            print("The number {} is a prime number".format(num))
+
+
+number = int(input("Enter any number: "))
+prime(number)
 
 Question: 6
 Suppose a customer is shopping in a market and you need to print all the items
