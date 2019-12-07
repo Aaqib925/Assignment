@@ -50,17 +50,17 @@
 #
 # print("The even numbers in given lists are:", even_numbers)
 
-# Question:4
-# Write a Python function that checks whether a passed string is palindrome or not.
-# Note: A palindrome is a word, phrase, or sequence that reads the same
-# backward as forward, e.g., madam
+Question:4
+Write a Python function that checks whether a passed string is palindrome or not.
+Note: A palindrome is a word, phrase, or sequence that reads the same
+backward as forward, e.g., madam
 
-# word = input("Enter any word: ")
-# reverse_word = word[-1::-1]
-# if word == reverse_word:
-#     print("The word {} is palindrome".format(word))
-# else:
-#     print("The word {} is not palindrome".format(word))
+word = input("Enter any word: ")
+reverse_word = word[-1::-1]
+if word == reverse_word:
+    print("The word {} is palindrome".format(word))
+else:
+    print("The word {} is not palindrome".format(word))
 
 Question:5
 Write a Python function that takes a number as a parameter and check the
