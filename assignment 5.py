@@ -62,9 +62,9 @@
 # else:
 #     print("The word {} is not palindrome".format(word))
 
-# Question:5
-# Write a Python function that takes a number as a parameter and check the
-# number is prime or not.
+Question:5
+Write a Python function that takes a number as a parameter and check the
+number is prime or not.
 
 def prime(num):
     if num > 1:
