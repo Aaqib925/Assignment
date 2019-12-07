@@ -1,26 +1,26 @@
-# Question 1
-# Write a Python function to calculate the factorial of a number (a non-negative
-# integer). The function accepts the number as an argument.
+Question 1
+Write a Python function to calculate the factorial of a number (a non-negative
+integer). The function accepts the number as an argument.
 
 
-# def fact(num):
-#     """ functions which finds a factorial value of the number """
-#     factorial = 1
-#     if num < 0:
-#         return "The factorial of the negative number doesn't exist."
-#     elif num == 0 or num == 1:
-#         return "The factorial of {} is 1".format(num)
-#
-#     elif num > 1:
-#         for i in range(1, num + 1):
-#             factorial = factorial * i
-#
-#     return factorial
-#
-#
-# number = int(input("Enter the number you want to find the factorial: "))
-#
-# print("The factorial of {} is:".format(number), fact(number))
+def fact(num):
+    """ functions which finds a factorial value of the number """
+    factorial = 1
+    if num < 0:
+        return "The factorial of the negative number doesn't exist."
+    elif num == 0 or num == 1:
+        return "The factorial of {} is 1".format(num)
+
+    elif num > 1:
+        for i in range(1, num + 1):
+            factorial = factorial * i
+
+    return factorial
+
+
+number = int(input("Enter the number you want to find the factorial: "))
+
+print("The factorial of {} is:".format(number), fact(number))
 
 Question:2
 Write a Python function that accepts a string and calculate the number of upper
