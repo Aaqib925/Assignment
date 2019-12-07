@@ -39,16 +39,16 @@
 # print("The number of upper case letters are: ", upper_count)
 # print("The number of lower case letters are: ", lower_count)
 
-# Question:3
-# Write a Python function to print the even numbers from a given list.
+Question:3
+Write a Python function to print the even numbers from a given list.
 
-# lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-# even_numbers = []
-# for i in lst:
-#     if i % 2 == 0:
-#         even_numbers.append(i)
-#
-# print("The even numbers in given lists are:", even_numbers)
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+even_numbers = []
+for i in lst:
+    if i % 2 == 0:
+        even_numbers.append(i)
+
+print("The even numbers in given lists are:", even_numbers)
 
 Question:4
 Write a Python function that checks whether a passed string is palindrome or not.
