@@ -85,3 +85,11 @@
 # which user bought from market.
 # Write a function which accepts the multiple arguments of user shopping list and
 # print all the items which user bought from market.
+
+def items(*names):
+    """ This functions accept multiple argument and print it """
+    print("The items customer bought are as follows: ")
+    for item in names:
+        print(item)
+
+items("Chocolate", "Mango juice", "Vegetables")
