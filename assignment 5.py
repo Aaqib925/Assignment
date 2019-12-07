@@ -79,3 +79,9 @@
 #
 # number = int(input("Enter any number: "))
 # prime(number)
+
+# Question: 6
+# Suppose a customer is shopping in a market and you need to print all the items
+# which user bought from market.
+# Write a function which accepts the multiple arguments of user shopping list and
+# print all the items which user bought from market.
