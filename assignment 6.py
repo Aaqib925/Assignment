@@ -42,3 +42,11 @@
 # have 5 attributes such like (model, color and name etc.) and 3
 # methods. And create 5 object instance from that class.
 
+
+class cars:
+    def __index__(self, name, color, model, owner, registration):
+        self.name = name
+        self.color = color
+        self.model = model
+        self.owner = owner
+        self.registration = registration
