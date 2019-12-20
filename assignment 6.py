@@ -50,3 +50,15 @@ class cars:
         self.model = model
         self.owner = owner
         self.registration = registration
+
+        def update_color(new_color):
+            self.color = new_color
+
+        def update_model(new_model):
+            self.model = new_model
+
+        def owner(new_owner):
+            self.owner = new_owner
+
+
+
