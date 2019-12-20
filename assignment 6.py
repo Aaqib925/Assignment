@@ -20,3 +20,20 @@
 #
 # Methods are similar as of function. The main difference is that methods are the function use within the class which
 # can perform any action relating to the class attribute or anything else
+
+# Question no. 4
+
+# Define the following terms:
+# 1. Class
+# 2. Object
+# 3. Attribute
+# 4. Behavior
+
+# 1- Class is the basic of the object oriented programming, Class is the blueprint for creating a object for our
+#     further use
+# 2- Object is the basic unit of object oriented programming in which a object can perform certain actions according to
+#     program we are creating
+# 3-  classes and objects have attributes. Attributes are data stored inside a class or instance and represent the state
+#     or quality of the class or instance.
+# 4- A class's Behaviour means how an instance of the class operates or behaves
+
