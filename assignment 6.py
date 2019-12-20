@@ -44,21 +44,29 @@
 
 
 class cars:
-    def __index__(self, name, color, model, owner, registration):
+    def __init__(self, name, color, model, owner, registration):
         self.name = name
         self.color = color
         self.model = model
         self.owner = owner
         self.registration = registration
 
-        def update_color(new_color):
-            self.color = new_color
+        # class methods
 
-        def update_model(new_model):
-            self.model = new_model
+    def update_color(self, new_color):
+        self.color = new_color
 
-        def owner(new_owner):
-            self.owner = new_owner
+    def update_model(self, new_model):
+        self.model = new_model
+
+    def owner(self, new_owner):
+        self.owner = new_owner
 
 
+car1 = cars("Civic", "Black", 2019, "Aaqib", "Yes")
+print(car1.__dict__)
+
+# using method on 1st instance to change color
+
+car1.update_color = ("Dark Blue")
 
