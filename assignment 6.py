@@ -37,3 +37,8 @@
 #     or quality of the class or instance.
 # 4- A class's Behaviour means how an instance of the class operates or behaves
 
+# Question no. 5
+# Write a code in python in which create a class named it Car which
+# have 5 attributes such like (model, color and name etc.) and 3
+# methods. And create 5 object instance from that class.
+
