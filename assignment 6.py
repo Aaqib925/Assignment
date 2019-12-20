@@ -59,7 +59,7 @@ class cars:
     def update_model(self, new_model):
         self.model = new_model
 
-    def owner(self, new_owner):
+    def update_owner(self, new_owner):
         self.owner = new_owner
 
 
@@ -80,3 +80,11 @@ class cars:
 # car2.update_model(2019)
 # print(car2.__dict__)
 
+# 3rd instance
+# car3 = cars("Rolls Royce", "Red", "Phantom 2018", "Aaqib", "Yes")
+# print(car3.__dict__)
+
+# using the method to change the owner
+
+# car3.update_owner("Asim")
+# print(car3.__dict__)
