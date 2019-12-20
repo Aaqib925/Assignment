@@ -43,24 +43,24 @@
 # methods. And create 5 object instance from that class.
 
 
-class cars:
-    def __init__(self, name, color, model, owner, registration):
-        self.name = name
-        self.color = color
-        self.model = model
-        self.owner = owner
-        self.registration = registration
-
-        # class methods
-
-    def update_color(self, new_color):
-        self.color = new_color
-
-    def update_model(self, new_model):
-        self.model = new_model
-
-    def update_owner(self, new_owner):
-        self.owner = new_owner
+# class cars:
+#     def __init__(self, name, color, model, owner, registration):
+#         self.name = name
+#         self.color = color
+#         self.model = model
+#         self.owner = owner
+#         self.registration = registration
+#
+#         # class methods
+#
+#     def update_color(self, new_color):
+#         self.color = new_color
+#
+#     def update_model(self, new_model):
+#         self.model = new_model
+#
+#     def update_owner(self, new_owner):
+#         self.owner = new_owner
 
 
 # 1st instance
