@@ -63,10 +63,20 @@ class cars:
         self.owner = new_owner
 
 
-car1 = cars("Civic", "Black", 2019, "Aaqib", "Yes")
-print(car1.__dict__)
+# 1st instance
+# car1 = cars("Civic", "Black", 2019, "Aaqib", "Yes")
+# print(car1.__dict__)
 
 # using method on 1st instance to change color
 
-car1.update_color = ("Dark Blue")
+# car1.update_color = "Dark Blue"
+# print(car1.__dict__)
+# 2nd instance
+# car2 = cars("Mercedes", "White", 2018, "Aaqib", "No")
+# print(car2.__dict__)
+
+# using method to change the model
+
+# car2.update_model(2019)
+# print(car2.__dict__)
 
